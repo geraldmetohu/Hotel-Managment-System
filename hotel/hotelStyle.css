@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+  padding-top: 70px;
+  position: relative
+}
+
+label{
+    font-family: 'Century Gothic';
+    font-weight: lighter;
+}
+
+.starter-template{
+    margin: 0 20%;
+}
+
+.error{
+    background-color: rgb(224, 194, 194);
+    color: rgb(214, 66, 66);
+    font-family: 'Century Gothic';
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.sukses{
+    background-color: rgb(194, 224, 212);
+    color: rgb(101, 160, 136);
+    font-family: 'Century Gothic';
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: x-large;
+}
+
+li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul.right-list{
+    white-space: pre;
+}
+
+.dhoma{
+    font-family: 'Century gothic';
+    color: #fff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-right: 40px;
+    display: inline-block;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    font-size: larger;
+    margin: 2%;
+    background-size: cover;
+}
+
+#amenities{
+    color:#0e3198;
+    text-align:center;
+    font-size: 40px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+#amenities1{
+    color:#03154b;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Century Gothic';
+}
+
+div#amenities1{
+    padding: 0 15%;
+}
+
+.inlineEdit:focus{
+    outline: none;
+    border: 3px solid #92bee2;
+}
+
+.activity{
+    color:#031039;
+    font-family: 'Segoe UI';
+}
+
+.activity-desc{
+    font-family: 'Segoe UI';
+    font-size: 20px;
+}
+
+#delete-box{
+    margin: 0 40%;
+}
+
+.del{
+    margin: 0 17%;
+}
+
+.info{
+    font-size: large;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+@media only screen and (min-width: 600px) {
+    .gallery img {
+        flex-basis: calc(33.33% - 13.33px);
+    }
+}
+
+h1 {
+    text-align: center;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 999;
+}
+
+.overlay img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button{
+    display: block;
+}
+
+.gallery img{
+    display: block;
+}
+
+.close {
+    position: absolute;
+    top: 15%;
+    right: 10%;
+    color: #fff;
+    font-size: 38px;
+    cursor: pointer;
+}
